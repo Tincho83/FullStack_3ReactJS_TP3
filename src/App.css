@@ -8,6 +8,24 @@
   text-align: center;
 }
 
+/* Estilos para scrollbar */
+/* Cambiar el color de la scrollbar */
+::-webkit-scrollbar {
+  width: 10px; /* Ancho de la scrollbar */
+}
+
+/* Cambiar el color del track de la scrollbar */
+::-webkit-scrollbar-track {
+  background: #CAE5FF; /* Color de fondo del track */
+}
+
+/* Cambiar el color del thumb (la barra deslizante) de la scrollbar */
+::-webkit-scrollbar-thumb {
+  background-color: rgb(111, 138, 183); /* Color del thumb */
+  border-radius: 5px; /* Borde redondeado del thumb */
+}
+
+
 .tituloError {
   font-size: 60px
 }

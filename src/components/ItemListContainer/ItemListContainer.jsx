@@ -5,6 +5,7 @@ import ItemList from '../ItemList/ItemList'
 import './ItemListContainer.css'
 import { useParams } from 'react-router-dom'
 import { ClockLoader } from 'react-spinners'
+import { db } from '../../config/firebase'
 
 const ItemListContainer = ({ title }) => {
 
@@ -16,7 +17,8 @@ const ItemListContainer = ({ title }) => {
 
   const { categoriaId } = useParams()
   //debugger;
-
+  console.log("Conectado a FireBase.", db)
+  
   useEffect(() => {
     establecerCargando(true)
     const datosProductos = categoriaId ? obtenerProductosporCategoria(categoriaId) : obtenerProductos()
