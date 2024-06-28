@@ -1,0 +1,69 @@
+.CardItem{
+    justify-content: center;
+    margin-top: 5px;;
+    margin-bottom: 25px;
+    margin-left: 14px !important;
+    margin-right: 14px !important;
+}
+
+.Header{
+    justify-content: center;
+    padding: 8px 8px 8px 8px !important;
+}
+
+.textoCantidad{
+    text-align: left !important;
+    margin-left: 14px !important;
+}
+
+.ImgPic{
+    justify-content: center !important;
+    align-content: center !important;
+    align-items: center !important;
+    display: inline !important;
+    height: 300px;
+    width: 350px;
+}
+
+.Item {
+    margin-left: 14px !important;
+    margin-right: 14px !important;
+}
+
+.ItemCardFooter{
+    padding-top: 5px !important;
+    padding-bottom: 5px !important;
+
+}
+
+.itemButton{
+    padding-left: 8px !important;
+    padding-right: 8px !important; 
+    padding-top: 5px !important;
+    padding-bottom: 5px !important;
+    margin-top: 11px;
+    margin-left: 14px;
+}
+
+.detalleItemButton{
+    padding-left: 8px !important;
+    padding-right: 8px !important; 
+    padding-top: 5px !important;
+    padding-bottom: 5px !important;
+    margin-top: 11px;
+}
+
+.ItemCardText{
+    margin-left: 8px !important;
+    padding-left: 8px !important;
+    padding-right: 8px !important;  
+}
+
+.ItemCantText{
+    text-align:left !important;
+    padding-left: 12px !important;
+}
+
+.ItemData{
+    margin-top: 12px !important;
+}

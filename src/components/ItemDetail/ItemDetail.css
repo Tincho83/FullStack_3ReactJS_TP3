@@ -1,0 +1,8 @@
+.ImgPic{
+    justify-content: center !important;
+    align-content: center !important;
+    align-items: center !important;
+    display: inline !important;
+    height: 300px;
+    width: 350px;
+}

@@ -1,0 +1,306 @@
+@media only screen and (min-width: 320px) {
+
+    .piepagina {
+        border-top: 1px solid rgba(0, 0, 0, 0.96);
+        padding-top: 20px;
+        background-image: linear-gradient(to top, rgba(111, 138, 183, 0.96), rgba(202, 229, 255, 0.96));
+    }
+
+    .piepagina_divflotante_imgsubir {
+        width: 2rem;
+        height: 2rem;
+        z-index: 999;
+    }
+
+    .piepagina_divflotantesubir {
+        display: inline-block;
+        border-radius: 100%;
+        padding: 0.25rem;
+        position: fixed;
+        bottom: 9rem;
+        right: 2rem;
+        background-color: rgba(255, 255, 255, 0.96);
+        z-index: 999;
+    }
+
+    .piepagina_divflotantesubir:hover {
+        background-image: radial-gradient(ellipse 25px 60px, rgba(255, 255, 255, 0.96), rgba(255, 0, 0, 0.96));
+        animation-name: animacionsubir;
+        animation-duration: 2s;
+        animation-timing-function: ease-in;
+        animation-iteration-count: 1;
+    }
+
+    .piepagina_divflotante_imgWhatsapps {
+        width: 2rem;
+        height: 2rem;
+        z-index: 999;
+    }
+
+    .piepagina_divflotante_imgWhatsapps:hover {
+        width: 3rem;
+        height: 3rem;
+        z-index: 999;
+    }
+
+    .piepagina_divflotantewts {
+        display: inline-block;
+        border-radius: 100%;
+        padding: 0.25rem;
+        position: fixed;
+        bottom: 4rem;
+        right: 2rem;
+        background-color: rgba(0, 0, 0, 0.96);
+        z-index: 999;
+    }
+
+    .piepagina_divflotantewts:hover {
+        background-color: rgba(221, 221, 221, 0.96);
+        animation-name: animacionwts;
+        animation-duration: 3s;
+        animation-timing-function: ease-in;
+        animation-iteration-count: infinite;
+    }
+
+    .piepagina_divcontacto {
+        /* border: 1px solid rgba(0, 0, 0, 0.96); */
+        margin-bottom: 20px;
+    }
+
+    .piepagina_divcontacto_h2infocontacto {
+        font-weight: bold;
+        font-size: 32px;
+    }
+
+    .piepagina_divcontacto_pinfocontacto {
+        font-style: italic;
+        padding: 0px 0px 00px 10px  !important;       
+      
+    }
+
+    .cajaContacto{
+        margin-top: 10px !important;
+    }
+
+    .piepagina_divcontacto_ulInfoContacto {
+        margin-top: 0px;
+        margin-bottom: 0px;
+        padding: 0px 0px 0px 0px;
+        text-align: center;
+        align-content: center;
+        justify-content: space-between;
+    }
+
+    .piepagina_divcontacto_ulInfoContacto_li {
+        display: block;
+    }
+
+    .piepagina_divcontacto_ulInfoContacto_li_img {
+        width: 32px;
+        height: 32px;
+        margin-left: 20px;
+    }
+
+    .piepagina_divcontacto_ulInfoContacto_li_img_p {
+        padding: 0px 0px 0px 0px;
+        font-size: 14px;
+    }
+
+    .piepagina_divLocacion {
+        /* border: 1px solid rgba(0, 0, 0, 0.96); */
+        margin-bottom: 32px;
+    }
+
+    .piepagina_horariocontacto {
+        margin-bottom: 32px;
+        margin-left: 32px;
+        margin-right: 32px;
+    }
+
+    .piepagina_divcontacto_ulInfoContacto {
+        margin-top: 0px;
+        margin-bottom: 0px;
+        padding: 0px 0px 0px 0px;
+        text-align: center;
+        align-content: center;
+        justify-content: space-between;
+    }
+
+    .piepagina_divcontacto_ulInfoContacto_li_img {
+        width: 32px;
+        height: 32px;
+        margin-left: 20px;
+    }
+
+    .piepagina_divLocacion_iframeUbicacion {
+        width: auto;
+        height: 300px;
+    }
+
+    .piepagina_divSuscripcion {
+        border: 1px solid rgba(0, 0, 0, 0.96);
+        padding: 20px 20px 20px 20px;
+        display: flex;
+        position: relative;
+    }
+
+    .piepagina_divSuscripcion_img-AyudaTermCondicion {
+        width: 32px;
+        height: 32px;
+        margin-left: 20px;
+    }
+
+    .piepagina_divSuscripcion_img-AyudaTermCondicion_p {
+        font-size: 1rem;
+    }
+
+    .piepagina_divSuscripcion_divSuscripcionMail {
+        padding: 0px 0px 0px 40px;
+        display: flex;
+        z-index: -1;
+    }
+
+    .piepagina_divSuscripcion_divSuscripcionMail_label_span {
+        font-size: 11px;
+    }
+
+    .piepagina_divSuscripcion_divSuscripcionMail_inputMail {
+        width: auto;
+        font-size: 7px;
+    }
+
+    .piepagina_divSuscripcion_divSuscripcionMail_inputBTNMail {
+        width: auto;
+        font-size: 9px;
+    }
+
+    .piepagina_divDatos {
+        border: 1px solid rgba(0, 0, 0, 0.96);
+        padding: 20px 20px 20px 20px;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .piepagina_divflotante_imgsubir {
+        width: 3rem;
+        height: 3rem;
+    }
+
+    .piepagina_divflotante_imgWhatsapps {
+        width: 3rem;
+        height: 3rem;
+    }
+
+    .piepagina_divcontacto_ulInfoContacto {
+        padding: 0px 0px 0px 0px;
+        margin-bottom: 20px;
+        font-size: 16px;
+    }
+
+    .piepagina_divcontacto_ulInfoContacto_li {
+        display: inline;
+        padding: 0px 0px 0px 0px;
+        margin-bottom: 20px;
+        font-size: 16px;
+    }
+
+    .piepagina_divcontacto_ulInfoContacto_li_img {
+        width: 32px;
+        height: 32px;
+        margin-left: 20px;
+    }
+
+    .piepagina_divcontacto_ulInfoContacto_li_img_p {
+        display: inline;
+        font-size: 16px;
+    }
+
+    .piepagina_divSuscripcion_img-AyudaTermCondicion_p {
+        font-size: 14px;
+    }
+
+    .piepagina_divSuscripcion_divSuscripcionMail_label_span {
+        font-size: 14px;
+    }
+
+    .piepagina_divSuscripcion_divSuscripcionMail_inputMail {
+        width: auto;
+        font-size: 11px;
+    }
+
+    .piepagina_divSuscripcion_divSuscripcionMail_inputBTNMail {
+        width: auto;
+        font-size: 11px;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    .piepagina_divflotante_imgsubir {
+        width: 4rem;
+        height: 4rem;
+    }
+
+    .piepagina_divflotante_imgWhatsapps {
+        width: 4rem;
+        height: 4rem;
+    }
+
+    .piepagina_divcontacto_ulInfoContacto_li_img_p {
+        display: inline;
+        font-size: 17px;
+    }
+
+    .piepagina_divSuscripcion_divSuscripcionMail_inputMail {
+        width: auto;
+        font-size: 14px;
+    }
+
+    .piepagina_divSuscripcion_divSuscripcionMail_inputBTNMail {
+        width: auto;
+        font-size: 14px;
+    }
+}
+
+@keyframes animacionsubir {
+    0% {
+        transform: scale(1, 1);
+    }
+
+    100% {
+        transform: scale(1.25, 1.25);
+    }
+}
+
+@keyframes animacionwts {
+    0% {
+        transform: rotateX(0deg);
+    }
+
+    14% {
+        transform: rotateX(33deg);
+    }
+
+    28% {
+        transform: rotateX(0deg);
+    }
+
+    43% {
+        transform: rotateX(-33deg);
+    }
+
+    57% {
+        transform: rotateX(0deg);
+    }
+
+    73% {
+        transform: rotateX(22deg);
+    }
+
+    89% {
+        transform: rotateX(-22deg);
+    }
+
+    100% {
+        transform: rotateX(0deg);
+    }
+}

@@ -1,0 +1,9 @@
+.Item {
+        margin-left: 14px !important;
+        margin-right: 14px !important;
+  }
+
+  .GrupoLista {
+      align-items: center !important;
+      justify-content: center !important;
+  }

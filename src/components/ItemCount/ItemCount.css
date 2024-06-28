@@ -1,0 +1,12 @@
+#boxCant {
+    padding: 3px 7px 3px 7px !important;
+}
+
+.botonAgregarCarrito {
+margin-left: 14px !important;
+}
+
+.textoCantidad{
+    justify-content: center !important;
+    justify-items: center !important;
+}
